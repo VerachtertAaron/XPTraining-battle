@@ -6,6 +6,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class SoldierTest {
 
+
+    @Test
+    public void buildProberen() throws Exception {
+        Object o = null;
+        assertThat(o).isNull();
+    }
+
     @Test
     public void construction_ASoldierMustHaveAName() {
         Soldier soldier = new Soldier("name");
